@@ -1,5 +1,7 @@
 module PkgTest3
 
-# Write your package code here.
+include("lorenz63.jl") 
+
+export lorenz63
 
 end
