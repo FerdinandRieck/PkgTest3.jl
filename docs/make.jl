@@ -17,3 +17,7 @@ makedocs(;
         "Home" => "index.md",
     ],
 )
+
+deploydocs(
+    repo = "git@github.com:FerdinandRieck/PkgTest3.jl.git",
+)
